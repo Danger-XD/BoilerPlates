@@ -1,3 +1,3 @@
 # BoilerPlate
-The standard boilerplates of HTML and CSS with Js <br>
-Clone this repo and start your crafting on websites
+The standard boilerplates of HTML, CSS and Js <br>
+Fork or Clone this repo and start crafting your websites
