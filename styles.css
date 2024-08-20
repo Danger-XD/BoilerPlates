@@ -1,8 +1,8 @@
 *,
 *::before,
 *::after {
-  margin: 0;
   padding: 0;
+  margin: 0;
   box-sizing: border-box;
 }
 html,
@@ -10,3 +10,47 @@ body {
   height: 100%;
   width: 100%;
 }
+body {
+  background-color: black;
+}
+/* container class css for all types of screen */
+.container {
+  height: 100%;
+  margin: 0px auto;
+}
+/* responsive design starts here:
+  the container width can be changed to 100% for all types of screen size
+*/
+
+@media only screen and (width < 576px) {
+  .container {
+    max-width: 100%;
+    background-color: red;
+    margin: 0px;
+  }
+}
+@media only screen and (768px > width >= 576px) {
+  .container {
+    max-width: 520px;
+    background-color: green;
+  }
+}
+@media only screen and (992px > width >= 768px) {
+  .container {
+    max-width: 720px;
+    background-color: yellow;
+  }
+}
+@media only screen and (1200px > width >= 992px) {
+  .container {
+    max-width: 960px;
+    background-color: brown;
+  }
+}
+@media only screen and (width >= 1200px) {
+  .container {
+    max-width: 1140px;
+    background-color: purple;
+  }
+}
+/* responsive design ends here */
